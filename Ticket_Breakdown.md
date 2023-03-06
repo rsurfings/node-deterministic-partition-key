@@ -17,7 +17,7 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 
 ## Your Breakdown Here
 
-Ticket 1: Add a custom ID field to the Agents table
+- Ticket 1: Add a custom ID field to the Agents table
 
 Description: In order to allow Facilities to save their own custom ids for each Agent they work with, we need to add a custom ID field to the Agents table.
 
@@ -33,7 +33,8 @@ Implementation Details:
 Add a custom ID field to the Agents table.
 Write a database migration script to update the Agents table.
 Update the API and the client-side code to include the new custom ID field.
-Ticket 2: Update the Agent creation and editing forms to include the custom ID field
+
+- Ticket 2: Update the Agent creation and editing forms to include the custom ID field
 
 Description: In order to allow Facilities to save their own custom ids for each Agent they work with, we need to update the Agent creation and editing forms to include the custom ID field.
 
@@ -49,7 +50,8 @@ Implementation Details:
 Add the custom ID field to the Agent creation and editing forms.
 Validate the custom ID field to be unique and to have a maximum length of 20 characters.
 Update the database queries to include the custom ID field when creating or editing Agents.
-Ticket 3: Update the getShiftsByFacility function to return the custom Agent ID
+
+- Ticket 3: Update the getShiftsByFacility function to return the custom Agent ID
 
 Description: In order to allow Facilities to use their own custom ids when generating reports, we need to update the getShiftsByFacility function to return the custom Agent ID instead of the internal database id.
 
@@ -63,7 +65,8 @@ Implementation Details:
 
 Update the getShiftsByFacility function to join the Agents table and return the custom Agent ID.
 Update the database queries to include the custom Agent ID when retrieving Shifts.
-Ticket 4: Update the generateReport function to use the custom Agent ID
+
+- Ticket 4: Update the generateReport function to use the custom Agent ID
 
 Description: In order to allow Facilities to use their own custom ids when generating reports, we need to update the generateReport function to use the custom Agent ID instead of the internal database id.
 
@@ -77,7 +80,8 @@ Implementation Details:
 
 Update the generateReport function to use the custom Agent ID instead of the internal database id.
 Update the PDF generation code to include the custom Agent ID in the report.
-Ticket 5: Update the API documentation to reflect the new custom ID field
+
+- Ticket 5: Update the API documentation to reflect the new custom ID field
 
 Description: In order to inform Facilities of the new custom ID field, we need to update the API documentation to include information about the custom ID field.
 
